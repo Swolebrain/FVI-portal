@@ -1,5 +1,35 @@
 body{
-  background-color: #004267;
+  background-color: #004267 !important;
   margin: 0;
   overflow-x:hidden;
+}
+canvas{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -5;
+}
+.round-img{
+  border-radius: 100%;
+  border: 10px solid #191e22;
+  margin: 20px auto;
+  box-shadow: 3px 3px 6px black;
+  transition: all 0.3s;
+}
+.round-img:hover{
+  transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Della Respira', serif;
+  color: #6ac4e2;
+  font-size: 6rem;
+  text-shadow: 3px 3px 6px black;
+}
+
+.blue-bg{
+  background-color: rgba( 106, 212, 226, .8);
+  margin:0 auto;
 }
