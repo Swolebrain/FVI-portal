@@ -1,5 +1,5 @@
 var bg = new Image();
-bg.src = "../img/banner.png";
+bg.src = "./img/banner.png";
 var canvas = document.getElementById("bgcanvas");
 window.onresize = sizeCanvas;
 sizeCanvas();
