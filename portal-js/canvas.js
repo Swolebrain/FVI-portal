@@ -2,7 +2,6 @@ var bg = new Image();
 bg.src = "./img/banner.png";
 var canvas = document.getElementById("bgcanvas");
 window.onresize = sizeCanvas;
-sizeCanvas();
 var ctx = canvas.getContext("2d");
 
 bg.onload = function(){
@@ -26,5 +25,6 @@ bg.onload = function(){
 function sizeCanvas(){
   canvas.width = window.innerWidth;
   var titleEnd = $(".hovering").offset().top+$(".hovering").height(); //where the abs positioned div ends
-  canvas.height = Math.max(500, titleEnd*1.1);
+  canvas.height = titleEnd*1.1;
 }
+$(window).on("load", sizeCanvas);
