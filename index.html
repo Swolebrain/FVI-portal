@@ -3,24 +3,64 @@
   <head>
     <title>Florida Vocational Institute</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Della+Respira' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="portal-css/style.css">
   </head>
   <body>
+    <canvas id="bgcanvas"></canvas>
+    <div class="hovering">
+      <img class="img-responsive center-block" src="img/FVI-white.png">
+      <p class="subtitle">
+        Florida Vocational Institute is committed to providing you a quality education in a lifelong, rewarding career. FVI takes pride in offering first-class training and the guidance, tools and support needed to prepare you for the job you want. We are dedicated to helping you achieve success with our passionate and knowledgeable faculty, successful career placement team, and our warm and welcoming community.
+      </p>
+      <br>
+      
+    </div>
     <div id="main-container" class="container-fluid">
-      <canvas id="bgcanvas"></canvas>
-     <img class="img-responsive center-block hidden" src="img/FVI-white.png">
+       
         
-      <div class="row">
+      <div class="row whitebg">
+        <h1 class="center">Choose Your School of Interest</h1> 
         <div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-2 text-center">
           <img src="img/nurse-icon2-small.png" class="img-responsive round-img">
           <h1>Allied Health</h1>
         </div>
         <div class="col-xs-12 col-md-6 col-lg-4 text-center">
-          <img src="img/tech-icon-small.png" class="img-responsive round-img">
+          <!--<img src="img/tech-icon-small.png" class="img-responsive round-img">-->
+          <img src="img/tech-icon2.png" class="img-responsive round-img">
           <h1>Technology</h1>
         </div>
       </div>
+      <div class="row">
+        <h1 class="center white">Technology Programs</h1> 
+        <br>
+        <p class="subtitle">
+          Join FVI for leading edge technology training in the fields of web development, networking, 
+          systems administration, and cloud platform management. 
+          Learn from experienced instructors the essential technical skills and expertise to get your dream job in technology.
+        </p> 
+        <br><br>
+        <div class="col-xs-12 col-md-4 col-lg-5 col-lg-offset-1 text-center">
+          <img class="tech-icon" src="img/it-icon.png" alt="Network and Systems Administrator Sysadmin">
+          <h3 class="white">IT Security and Cloud Professional Engineer</h3>
+          <p class="subtitle">
+            This program is designed to teach you the ins and outs of configuring a cisco network, managing
+            a Windows or Linux server Infrastructure, and managing IaaS and PaaS platforms in the cloud (AWS and Azure).  
+          </p> 
+        </div>
+        <div class="col-xs-12 col-md-8 col-lg-5 text-center">
+          <img class="tech-icon" src="img/wd-icon.png" alt="Full Stack Web Developer">
+          <h3 class="white">Web and Application Development Engineer </h3>
+          <p class="subtitle">
+            This program is designed to turn someone with no programming experience into a full stack
+            web developer in Node.JS and php, with ample practice in interacting with APIs, 
+            and creating SPAs.  
+          </p>
+        </div>  
+      </div>
+      
+      
+      
     </div>
     
     
