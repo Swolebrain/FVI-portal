@@ -115,6 +115,9 @@ h1,h2,h3,h4,h5{
 .notoppad{
   padding-top: 0;
 }
+#myModal .modal-footer span{
+  padding-left:20px;
+}
 
 @media screen and (max-width:800px){
   .subtitle{

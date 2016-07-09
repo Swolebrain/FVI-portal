@@ -27,7 +27,7 @@
               alt="Florida Vocational Institute">
           </a>
           <ul class="nav navbar-nav navbar-left">
-            <li id="apply-cta">
+            <li id="apply-cta" data-toggle="modal" data-target="#myModal">
               Apply Now
             </li>
           </ul>
@@ -35,14 +35,12 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">IT Programs</a></li>
-            <li><a href="#">Health Care Programs</a></li>
-            <li><a href="#">Veterans</a></li>
-            <li><a href="#">Career Outlook</a></li>
-            <li><a href="#">Why FVI</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="http://www.fvi.edu/coders_corner/">Coder's Corner</a></li>
+            <li><a href="http://www.fvi.edu/it-programs/web-application-development-engineer/">Web Development</a></li>
+            <li><a href="http://www.fvi.edu/it-programs/it-security-and-cloud/">Cloud and Security</a></li>
+            <li><a href="http://www.fvi.edu/en/contact-us/">Contact</a></li>
+            <li><a href="http://www.fvi.edu/en/blog">Blog</a></li>
+            <li><a href="http://www.fvi.edu">Main Site</a></li>
           </ul>
         </div>
       </div>
@@ -53,13 +51,17 @@
         <div class="col-xs-12 text-center">
           <img class="img-responsive center-block" src="img/FVI-white.png">
           <p class="subtitle">
-            Florida Vocational Institute is committed to providing you a quality education in a lifelong, rewarding career. FVI takes pride in offering first-class training and the guidance, tools and support needed to prepare you for the job you want. We are dedicated to helping you achieve success with our passionate and knowledgeable faculty, successful career placement team, and our warm and welcoming community.
+            Florida Vocational Institute is committed to providing you a quality education in a lifelong,
+            rewarding career. FVI tech takes pride in offering first-class training and the guidance, tools
+            and support needed to prepare you for the job you want. We are <strong>real developers</strong>
+            dedicated to giving you a quality education to prepare you to <strong>get a job.</strong> We don't
+            waste your time making you jump through hoops or taking a bunch of boring classes you don't need.
 
           </p>
           <br />
           <div class="request-info-btn white">
             <i class="fa fa-info-circle" aria-hidden="true" style="font-size:2.4rem;"></i>
-            <span>Request Information</span>
+            <span data-toggle="modal" data-target="#myModal">Request Information</span>
           </div>
           <br>
         </div>
@@ -68,7 +70,7 @@
     </div>
     <div id="main-container" class="container-fluid">
 
-
+<!--
       <div class="row whitebg">
         <h1 class="center">Choose Your School of Interest</h1>
         <div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-2 text-center">
@@ -77,17 +79,21 @@
         </div>
         <div class="col-xs-12 col-md-6 col-lg-4 text-center">
           <!--<img src="img/tech-icon-small.png" class="img-responsive round-img">-->
-          <img src="img/coder_in_cafe_sm.jpg" class="img-responsive round-img">
+          <!--<img src="img/coder_in_cafe_sm.jpg" class="img-responsive round-img">
           <h1>Technology</h1>
         </div>
       </div>
-      <div class="row">
-        <h1 class="center white">Technology Programs</h1>
-        <p class="subtitle">
-          Join FVI for leading edge technology training in the fields of web development, networking,
-          systems administration, and cloud platform management.
-          Learn from experienced instructors the essential technical skills and expertise to get your dream job in technology.
-        </p>
+    -->
+      <div class="row whitebg">
+        <div class="col-xs-12 col-md-10 col-md-offset-1 text-center">
+          <h1 class="center">Technology Programs</h1>
+          <br />
+          <p>
+            Join FVI for leading edge technology training in the fields of web development, networking,
+            systems administration, and cloud platform management.
+            Learn from experienced instructors the essential technical skills and expertise to get your dream job in technology.
+          </p>
+        </div>
       </div>
       <div class="row notoppad">
         <div class="col-xs-12 col-md-6 col-lg-5 col-lg-offset-1 text-center">
@@ -111,60 +117,20 @@
         </div>
       </div>
       <!-- health programs -->
-      <div class="whitebg" id="med-programs">
-        <div class="row">
-          <div class="col-xs-12 col-lg-10 col-lg-offset-1 text-center">
-            <h1>Health Care Programs</h1>
-            <p>Join FVI for the opportunity to learn the essential skills for high demand healthcare careers.
-              Florida Vocational Institute trains students to become entry level healthcare professionals
-              as Medical Assistants, Pharmacy Technicians, Patient Care Technicians, and Nursing Assistants.
-            </p>
-          </div>
+      <div class="row whitebg" id="med-programs">
+        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+          <img class="img-responsive" src="img/techjob.png" alt="Jobs in Technology" />
         </div>
-        <div class="row notoppad">
-          <div class="col-xs-12  col-md-6 col-lg-5 col-lg-offset-1 text-center">
-            <br />
-            <img class="rect-img img-responsive" src="http://www.fvi.edu/wp-content/uploads/2015/12/PHT_thumb.jpg" alt="Pharmacy Technician">
-            <h3>Pharmacy Technician</h3>
-            <p>This program provides instruction in how to assist the
-              pharmacist in the packing and distribution of medication.</p>
-          </div>
-          <div class="col-xs-12  col-md-6 col-lg-5 text-center">
-            <br />
-            <img class="rect-img img-responsive" alt="Medical Assistant" src="http://www.fvi.edu/wp-content/uploads/2015/12/MA_thumb21.jpg">
-            <h3>Medical Assistant</h3>
-            <p>
-              With online and in-person options, our MA program will give you the clinical and admin skills for a job in health care.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row whitebg notoppad">
-        <div class="col-xs-12  col-md-6 col-lg-5 col-lg-offset-1 text-center">
-          <br />
 
-          <img class="rect-img img-responsive" alt="Patient Care Technician" src="http://www.fvi.edu/wp-content/uploads/2015/05/Patient-Care-Techician-Program.jpg">
-          <h3>Patient Care Technician</h3>
-          <p>
-            Our Patient Care Technician program provides you with technical medical career skills that focus on patient care
-          </p>
-        </div>
-        <div class="col-xs-12  col-md-6    col-lg-5 text-center">
-          <br />
-          <img class="rect-img img-responsive" alt="Nursing Assistant/Home Health Aide" src="http://www.fvi.edu/wp-content/uploads/2015/05/Nursing-Assistant-Home-Health-Aide-Program.jpg">
-          <h3>Nursing Assistant</h3>
-          <p>
-            Our Nursing Assistant program is designed to offer students a clear understanding of all aspects of patient care
-          </p>
-        </div>
       </div>
+
       <!-- end health programs -->
       <div class="row white">
         <div class="col-xs-12 text-center">
           <h3 class="white">Committed to Training Students for Great Careers</h3>
           <div class="request-info-btn">
             <i class="fa fa-info-circle" aria-hidden="true" style="font-size:2.4rem;"></i>
-            <span>Request Information</span>
+            <span data-toggle="modal" data-target="#myModal">Request Information</span>
           </div>
         </div>
       </div>
@@ -182,6 +148,41 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel">Get in touch</h3>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" class="form-control" id="fname" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" class="form-control" id="lname" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <span></span>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success" id="formsubmit">Submit!</button>
+          </div>
+        </div>
+      </div>
     </div>
 
 
